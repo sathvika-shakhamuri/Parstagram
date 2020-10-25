@@ -78,7 +78,7 @@ public class MainActivity extends Activity{  //AppCompactActivity?
         Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
 
         photoFile = getPhotoFileUri(photoFileName);
-        Uri fileProvider = FileProvider.getUriForFile(MainActivity.this, ".com.codepath.fileprovider",  photoFile);
+        Uri fileProvider = FileProvider.getUriForFile(MainActivity.this, "com.codepath.fileprovider",  photoFile);
         intent.putExtra(MediaStore.EXTRA_OUTPUT, fileProvider);
 
         if(intent.resolveActivity(getPackageManager()) != null){

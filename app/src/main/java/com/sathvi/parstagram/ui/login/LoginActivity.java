@@ -16,6 +16,7 @@ import com.parse.ParseException;
 import com.parse.ParseUser;
 import com.sathvi.parstagram.ParseApplication;
 import com.sathvi.parstagram.R;
+import com.sathvi.parstagram.MainActivity;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -62,7 +63,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void gotMainActivity() {
-        Intent i = new Intent(this, ParseApplication.MainActivity.class);
+        Intent i = new Intent(this,MainActivity.class);
         startActivity(i);
         finish();
     }
