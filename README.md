@@ -89,7 +89,7 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
+Here's a walkthrough of implemented user stories: 
 
 <img src='parse.gif' title='Parse Walkthrough' width='' alt='Parse Walkthrough' />
 <img src='login.gif' title='Login Walkthrough' width='' alt='Login Walkthrough' />
